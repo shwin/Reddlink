@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Reddlink | For your favorite Cornell sites</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0 user-scalable=0">
+    <meta name="description" content="A better way to reach your favorite Cornell sites">
+    <meta name="author" content="Arda Menzil">
+	<meta property="og:title" content="ReddLink.com" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="http://www.reddlink.com" />
+	<meta property="og:image" content="http://www.reddlink.com/Brand_8.png" />
+	<meta property="og:site_name" content="ReddLink" />
+	<meta property="fb:admins" content="1572451212" />
+
+    <!-- STYLE SHEETS --> 
+	<link rel="stylesheet" href="handheld.css" media="handheld,
+only screen and (max-device-width:480px)"/>
+    <link href="core.css" rel="stylesheet" media="screen">
+    <link href="bootstrap-responsive.min.css" rel="stylesheet">
+	<link rel="shortcut icon" href="favicon.ico"> 
+    
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+	<script type="text/javascript">
+
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-34037120-1']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+
+	  function recordOutboundLink(link, category, action) {
+			try {
+			var myTracker=_gat._getTrackerByName();
+			_gaq.push(['myTracker._trackEvent', category , action ]);
+			setTimeout('document.location = "' + link.href + '"', 100)
+			}catch(err){}
+		}
+	</script>
+</head>
+
+<body>
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+			<!--[if !IE]> -->
+				<a class="brand"></a>
+			<!-- <![endif]-->
+			
+			<!--[if IE 9]>
+				<a class="brand"></a>
+			<![endif]-->
+			
+			<!--[if IE 8]>
+				<a><img src="Reddlink-big.png" width=363 height=32 alt="brand" style="margin-left:-145px; margin-top:5px;"></a>
+			<![endif]-->
+			
+			<!--[if IE 7]>
+				<a style="color:#dddddd;">REDDLINK.COM IS NOT SUPPORTED IN IE 6-7. PLEASE VISIT US IN CHROME, FIREFOX, SAFARI, OR IE 8-10.</a>
+			<![endif]-->
+			<ul class="nav">
+			<li style="margin-right:30px;"> <div class="fb-like" style="margin-top:10px;" data-href="http://www.reddlink.com" data-send="true" data-layout="button_count" data-width="150" data-show-faces="false" data-colorscheme="dark" data-font="segoe ui"> </div> </li>
+			<li class="btn-group">
+				<button class="btn btn-customize darkred dropdown-toggle" data-toggle="dropdown">Skins <span class="caret"></span></button>
+					<ul class="dropdown-menu">
+						<li><a href="#">Coming Soon</a></li>
+					</ul>
+			</li>
+			</ul>
+        </div>
+      </div>
+    </div>
+
+	<div class="container">
+	<!--[if !IE]> -->
+				<p class="ourheader"></p>
+			<!-- <![endif]-->
+			
+			<!--[if IE 9]>
+				<p class="ourheader"></p>
+			<![endif]-->
+			
+			<!--[if IE 8]>
+				<p><img src="Reddlink.png" width=213 height=61 alt="header" style="margin-left:370px;"></p>
+			<![endif]-->
+			
+			<!--[if IE 7]>
+				<p><img src="Reddlink.png" width=213 height=61 alt="header" style="margin-left:370px;"></p>
+			<![endif]-->
+	</div>
+<table class="table">
+	<tr>
+		<td> <a href="http://blackboard.cornell.edu/" class="ourbutton red" onClick="recordOutboundLink(this, 'Outbound Links', 'Blackboard');return false;">Blackboard</a> </td>
+		<td> <a href="http://www.facebook.com/" class="ourbutton red" onClick="recordOutboundLink(this, 'Outbound Links', 'Facebook');return false;">Facebook</a> </td> 
+		<td> <a href="http://studentcenter.cornell.edu" class="ourbutton red" onClick="recordOutboundLink(this, 'Outbound Links', 'Student Center');return false;">Student Center</a> </td>
+	</tr>
+</table>
+
+<table class="table">
+	<tr>
+		<td> <a href="http://cms.csuglab.cornell.edu/web/guest/" class="ourbutton2 red" onClick="recordOutboundLink(this, 'Outbound Links', 'CMS');return false;">CMS</a> </td>
+		<td> <a href="https://piazza.com/" class="ourbutton2 red" onClick="recordOutboundLink(this, 'Outbound Links', 'Piazza');return false;">Piazza</a> </td>
+		<td> <a href="http://mail.cmail.cornell.edu" class="ourbutton2 red" onClick="recordOutboundLink(this, 'Outbound Links', 'Cmail');return false;">Cmail</a> </td>
+		<td> <a href="http://cornell-students.experience.com/er/security/login.jsp" class="ourbutton2 red" onClick="recordOutboundLink(this, 'Outbound Links', 'CCNet');return false;">CCNet</a> </td>
+		<td> <a href="http://cornellsun.com/" class="ourbutton2 red" onClick="recordOutboundLink(this, 'Outbound Links', 'Daily Sun');return false;">Daily Sun</a> </td>
+	</tr>
+
+	<tr>
+		<td> <div class="btn-group-colleges">
+				  <button class="btn red dropdown-toggle" data-toggle="dropdown">Dining  <span class="caret"></span></button>
+				  <ul class="dropdown-menu-colleges dropdown-menu-dining">
+				    <li><a href="http://www.campuslife.cornell.edu/campuslife/dining/" onClick="recordOutboundLink(this, 'Outbound Links', 'Dining Home');return false;">Home</a></li>
+					<li class="divider"></li>
+					<li><a href="http://www.campuslife.cornell.edu/campuslife/dining/dining-hours.cfm" onClick="recordOutboundLink(this, 'Outbound Links', 'Dining Hours');return false;">Hours</a></li>
+					<li><a href="http://www.campuslife.cornell.edu/campuslife/dining/dining-locations.cfm" onClick="recordOutboundLink(this, 'Outbound Links', 'Dining Locations');return false;">Locations</a></li>
+					<li><a href="http://www.campuslife.cornell.edu/campuslife/housing-dining-map.cfm" onClick="recordOutboundLink(this, 'Outbound Links', 'Dining Map');return false;">Map</a></li>
+					<li><a href="http://luthien3.campuslife.cornell.edu:7777/menus/faces/menu_start.jspx" onClick="recordOutboundLink(this, 'Outbound Links', 'Dining Menus');return false;">Menus</a></li>
+				  </ul>
+			</div> </td>
+		<td> <div class="btn-group-colleges">
+				  <button class="btn red dropdown-toggle" data-toggle="dropdown">Library  <span class="caret"></span></button>
+				  <ul class="dropdown-menu-colleges dropdown-menu-library">
+					<li><a href="http://www.library.cornell.edu/index" onClick="recordOutboundLink(this, 'Outbound Links', 'Library Home');return false;">Home</a></li>
+					<li class="divider"></li>
+					<li><a href="http://www.library.cornell.edu/libraryhours" onClick="recordOutboundLink(this, 'Outbound Links', 'Library Hours');return false;">Hours</a></li>
+					<li><a href="http://www.library.cornell.edu/libraryhours" onClick="recordOutboundLink(this, 'Outbound Links', 'Library Locations');return false;">Locations</a></li>
+				  </ul>
+			</div> </td> 
+		<td> <div class="btn-group-colleges">
+				  <button class="btn red dropdown-toggle" data-toggle="dropdown">Gym     <span class="caret"></span></button>
+				  <ul class="dropdown-menu-colleges dropdown-menu-dining">
+					<li><a href="http://fitness.cornell.edu/" onClick="recordOutboundLink(this, 'Outbound Links', 'Gym Home');return false;">Home</a></li>
+					<li class="divider"></li>
+					<li><a href="http://fitness.cornell.edu/Group-Fitness/Master-Schedule/" onClick="recordOutboundLink(this, 'Outbound Links', 'Gym Schedule');return false;">Class Schedule</a></li>
+					<li><a href="http://fitness.cornell.edu/Facilities/Hours/" onClick="recordOutboundLink(this, 'Outbound Links', 'Gym Hours');return false;">Hours</a></li>
+					<li><a href="http://fitness.cornell.edu/Facilities/CFC-Map/" onClick="recordOutboundLink(this, 'Outbound Links', 'Gym Locations');return false;">Locations</a></li>
+				  </ul>
+			</div> </td> 
+		<td> <a href="http://card.campuslife.cornell.edu/" class="ourbutton2 red" onClick="recordOutboundLink(this, 'Outbound Links', 'Cornell Card');return false;">Cornell Card</a> </td> 
+		<td> <a href="http://www.tcatbus.com/" class="ourbutton2 red" onClick="recordOutboundLink(this, 'Outbound Links', 'TCAT');return false;">TCAT</a> </td>
+	</tr>
+
+	<tr>
+		<td> <a href="http://www.grubhub.com/" class="ourbutton2 red" onClick="recordOutboundLink(this, 'Outbound Links', 'GrubHub');return false;">GrubHub</a> </td>
+		<td> <a href="https://cornell.webfood.com/" class="ourbutton2 red" onClick="recordOutboundLink(this, 'Outbound Links', 'Webfood');return false;">Webfood</a> </td> 
+		<td> <a href="http://www.cornell.edu/maps/" class="ourbutton2 red" onClick="recordOutboundLink(this, 'Outbound Links', 'Campus Map');return false;">Campus Map</a> </td>
+		<td> <div class="btn-group-colleges">
+				  <button class="btn red dropdown-toggle" data-toggle="dropdown">Colleges <span class="caret"></span></button>
+				  <ul class="dropdown-menu-colleges">
+					<li><a href="http://aap.cornell.edu/" onClick="recordOutboundLink(this, 'Outbound Links', 'AAP');return false;">AAP</a></li>
+					<li><a href="http://as.cornell.edu/" onClick="recordOutboundLink(this, 'Outbound Links', 'Arts and Sciences');return false;">Arts and Sciences</a></li>
+					<li><a href="http://cals.cornell.edu/" onClick="recordOutboundLink(this, 'Outbound Links', 'CALS');return false;">CALS</a></li>
+					<li><a href="http://www.engineering.cornell.edu/" onClick="recordOutboundLink(this, 'Outbound Links', 'Engineering');return false;">Engineering</a></li>
+					<li><a href="http://www.hotelschool.cornell.edu/" onClick="recordOutboundLink(this, 'Outbound Links', 'Hotel School');return false;">Hotel School</a></li>
+					<li><a href="http://www.human.cornell.edu/" onClick="recordOutboundLink(this, 'Outbound Links', 'Human Econology');return false;">Human Ecology</a></li>
+					<li><a href="http://www.ilr.cornell.edu/" onClick="recordOutboundLink(this, 'Outbound Links', 'ILR');return false;">ILR</a></li>
+				  </ul>
+				</div> </td>
+		<td> <div class="btn-group-people">
+				  <button class="btn red dropdown-toggle" data-toggle="dropdown">People <span class="caret"></span></button>
+				  <div class="dropdown-menu-colleges dropdown-menu-search">
+					<form accept-charset="UTF-8">
+					  <input type="search" placeholder="Name, NetID, or Phone" style="width: 155px; margin-bottom: 8px;" id="search_field" size="30" />
+					  <button class="btn btn-search darkred" id="search_button" style="width:165px;">
+						<i class="icon-search" style="margin-right:4px; top:2px;"></i>Search</button>
+					</form>
+				  </div>
+				</div> </td>
+	</tr>
+</table>
+
+<table class="tablebottom">
+	<tr>
+		<td> <a href="http://registrar.sas.cornell.edu/courses/roster/FA12/" class="ourbutton2 darkred" onClick="recordOutboundLink(this, 'Outbound Links', 'Course Roster');return false;">Course Roster</a> </td> 
+		<td> <a href="http://www.cornell.edu/academics/calendar/" class="ourbutton3 darkred" onClick="recordOutboundLink(this, 'Outbound Links', 'Academic Calendar');return false;">Academic Calendar</a> </td> 
+		<td> <a href="https://www.courserank.com/cornell/main" class="ourbutton2 darkred" onClick="recordOutboundLink(this, 'Outbound Links', 'Courserank');return false;">Courserank</a> </td> 
+		<td> <a href="http://cornell.chequerd.com/" class="ourbutton2 darkred" onClick="recordOutboundLink(this, 'Outbound Links', 'Chequerd');return false;">Chequerd</a> </td> 
+		<td> <a href="http://cornell.schedulizer.com/" class="ourbutton2 darkred" onClick="recordOutboundLink(this, 'Outbound Links', 'Schedulizer');return false;">Schedulizer</a> </td>
+	</tr>
+</table>
+
+<!--MOBILE-->
+
+<table class="table-mobile">
+
+	<tr>
+		<td> <a href="http://blackboard.cornell.edu/" class="ourbutton red">Blackboard</a> </td>
+		<td> <a href="http://studentcenter.cornell.edu" class="ourbutton red">Student Center</a> </td> 
+	</tr>
+
+	<tr>
+		<td> <a href="http://mail.cmail.cornell.edu" class="ourbutton red">Cmail</a> </td>
+		<td> <a href="http://cornellsun.com/" class="ourbutton red">Daily Sun</a> </td>
+	</tr>
+</table>
+
+<table class="table-mobile">
+	<tr>
+		<td> <a href="https://cms.csuglab.cornell.edu/web/auth/?action=loginview" class="ourbutton2 red">CMS</a> </td>
+		<td> <a href="https://piazza.com/" class="ourbutton2 red">Piazza</a> </td>
+		<td> <a href="http://cornell-students.experience.com/er/security/login.jsp" class="ourbutton2 red">CCNet</a> </td>
+	</tr>
+
+	<tr>
+		<td> <a href="http://www.campuslife.cornell.edu/campuslife/dining/dining-hours.cfm" class="ourbutton2 red">Dining</a> </td>
+		<td> <a href="http://www.library.cornell.edu/libraryhours" class="ourbutton2 red">Library</a> </td>
+		<td> <a href="http://fitness.cornell.edu/Facilities/Hours/" class="ourbutton2 red">Gym</a> </td>
+	</tr>
+
+	<tr>
+		<td> <a href="http://www.grubhub.com/" class="ourbutton2 red">GrubHub</a> </td>
+		<td> <a href="https://cornell.webfood.com/" class="ourbutton2 red">Webfood</a> </td>
+		<td> <a href="http://card.campuslife.cornell.edu/" class="ourbutton2 red">Cornell Card</a> </td>
+	</tr>
+
+	<tr>
+		<td> <a href="http://transportation.fs.cornell.edu/parking/maps/default.cfm" class="ourbutton2 red">Parking</a> </td>
+		<td> <a href="http://www.tcatbus.com/" class="ourbutton2 red">TCAT</a> </td>
+		<td> <a href="http://www.cornell.edu/maps/" class="ourbutton2 red">Campus Map</a> </td>
+	</tr>
+
+	<tr>
+		<td> <a href="http://registrar.sas.cornell.edu/courses/roster/FA12/" class="ourbutton2 red">Course Roster</a> </td>
+		<td> <a href="http://www.cornell.edu/academics/calendar/" class="ourbutton3 red">Academic Calendar</a> </td>
+		<td> <a href="http://cornell.chequerd.com/" class="ourbutton2 red">Chequerd</a> </td>
+	</tr>
+</table>
+
+<table class="table-mobilebottom">
+	<tr>
+		<td> <a href="http://newstudentprograms.cornell.edu/orientation/orientation_guide_12.pdf" class="ourbutton3 darkred">Orientation Guide</a> </td>
+		<td> <a href="http://cornell.schedulizer.com/" class="ourbutton2 darkred">Schedulizer</a> </td>
+		<td> <a href="http://store.cornell.edu/c-509-buy-textbooks-online.aspx" class="ourbutton2 darkred">Textbooks</a> </td>
+	</tr>
+</table>
+
+
+<div class="navbar navbar-fixed-bottom">
+      <div class="navbar-inner blend">
+        <div class="container">
+			<div class="bottom-row">
+				<a> &copy; 2012 ReddLink </a>
+				<a class="btn btn-large gray" style="float:none; margin-left: 30px;" href="mailto:contact@reddlink.com"> 
+						<i class = "icon-envelope"></i> Contact Us!
+					</a> </div>
+		</div> </div> </div>
+</body>
+</html>
+
+<!-- Javascript -  http://labs.abeautifulsite.net/jquery-dropdown/
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <!--<script src="jquery-1.7.2.min.js"></script>-->	
+    <script src="bootstrap-dropdown.js"></script>
+	<script type="text/javascript">
+		$(function() {
+		  $('.dropdown-toggle').dropdown();
+		 
+		  $('.dropdown input, .dropdown label').click(function(e) {
+			e.stopPropagation();
+		  });
+		});
+		
+		$('.dropdown-menu-colleges').find('form').click(function (e) {
+			e.stopPropagation();
+		});
+	</script>
+	<script type="text/javascript">
+		$('#search_button').click(function(e){
+		e.preventDefault();
+			window.location.href = "http://www.cornell.edu/search/index.cfm?q=" + $('#search_field').val() + "&tab=people";
+			});
+	</script>
+	<div id="fb-root"></div>
+	<script>
+	  window.fbAsyncInit = function() {
+		FB.init({
+		  appId      : '347717008650336', // App ID
+		  channelUrl : 'www.reddlink.com', // Channel File
+		  status     : true, // check login status
+		  cookie     : true, // enable cookies to allow the server to access the session
+		  xfbml      : true  // parse XFBML
+		});
+
+		// Additional initialization code here
+	  };
+
+	  // Load the SDK Asynchronously
+	  (function(d){
+		 var js, id = 'facebook-jssdk', ref = d.getElementsByTagName('script')[0];
+		 if (d.getElementById(id)) {return;}
+		 js = d.createElement('script'); js.id = id; js.async = true;
+		 js.src = "//connect.facebook.net/en_US/all.js";
+		 ref.parentNode.insertBefore(js, ref);
+	   }(document));
+	</script>
+	<script>(function(d, s, id) {
+		  var js, fjs = d.getElementsByTagName(s)[0];
+		  if (d.getElementById(id)) return;
+		  js = d.createElement(s); js.id = id;
+		  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+		  fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
