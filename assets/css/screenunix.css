@@ -1,0 +1,185 @@
+@import url("screen.css"); 
+ 
+ body {
+  margin: 0;
+  padding-top: 60px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  line-height: 26px;
+  color: #aaaaaa;
+  background-color: #000000;
+}
+ 
+.table tbody tr:hover td,
+.table tbody tr:hover th {
+  background-color: #000000;
+}
+ 
+ .btn-group-people.open .btn.dropdown-toggle {
+  color: #000000;
+	background: -webkit-gradient(linear, left top, left 	bottom, from(#008700), 	to(#004100));
+	background: -moz-linear-gradient(top,  #008700,  #004100);
+	filter:  progid:DXImageTransform.Microsoft.gradient	(startColorstr='#008700', endColorstr='#004100');
+}
+ 
+ .btn-group-colleges.open .btn.dropdown-toggle {
+  color: #000000;
+	background: -webkit-gradient(linear, left top, left 	bottom, from(#00A500), 	to(#00b500));
+	background: -moz-linear-gradient(top,  #00A500,  #00b500);
+	filter:  progid:DXImageTransform.Microsoft.gradient	(startColorstr='#00A500', endColorstr='#00b500');
+}
+
+.dropdown-menu-colleges a {
+  display: block;
+  padding: 3px 15px;
+  clear: both;
+  font-weight: normal;
+  line-height: 18px;
+  color: #00b500;
+  white-space: nowrap;
+}
+
+.dropdown-menu-colleges li > a:hover,
+.dropdown-menu-colleges .active > a,
+.dropdown-menu-colleges .active > a:hover {
+  color: #000000;
+  text-decoration: none;
+  background-color: #00b500;
+  -webkit-border-radius: 8px;
+     -moz-border-radius: 8px;
+          border-radius: 8px;
+}
+ 
+ .btn-group.open .btn.dropdown-toggle {
+  color: #000000;
+	background: -webkit-gradient(linear, left top, left 	bottom, from(#004100), 	to(#00B900));
+	background: -moz-linear-gradient(top,  #004100,  #00B900);
+	filter:  progid:DXImageTransform.Microsoft.gradient	(startColorstr='#004100', endColorstr='#00B900');
+}
+ 
+ .dropdown-menu a {
+  display: block;
+  padding: 3px 15px;
+  clear: both;
+  font-weight: normal;
+  line-height: 18px;
+  color: #00b500;
+  white-space: nowrap;
+}
+ 
+ .dropdown-menu li > a:hover,
+.dropdown-menu .active > a,
+.dropdown-menu .active > a:hover {
+  color: #000000;
+  text-decoration: none;
+  background-color: #00b500;
+   -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+}
+ 
+  a:hover {
+  color: #000000;
+  text-decoration: none;
+}
+ 
+.red {
+	color: #000000;
+	border: solid 1px #00FF00;
+	background: #d81b21;
+	background: -webkit-gradient(linear, left top, left bottom, from(#00FF00), to(#00A500));
+	background: -moz-linear-gradient(top,  #00FF00,  #00A500);
+	background-image: -moz-linear-gradient(top, #00FF00, #00A500);
+	background-image: -ms-linear-gradient(top, #00FF00, #00A500);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#00FF00), to(#00A500));
+	background-image: -webkit-linear-gradient(top, #00FF00, #00A500);
+	background-image: -o-linear-gradient(top, #00FF00, #00A500);
+	background-image: linear-gradient(top, #00FF00, #00A500);
+	background-repeat: repeat-x;
+	filter:  progid:DXImageTransform.Microsoft.gradient	(startColorstr='#00FF00', endColorstr='#00A500', GradientType=0);
+}
+
+.red:hover {
+	background: #000000;
+	border: solid 1px #00E100;
+	border-width:1px;
+	background: -webkit-gradient(linear, left top, left bottom, from(#00E100), to(#007300));
+	background: -moz-linear-gradient(top,  #00E100,  #007300);
+	filter:  progid:DXImageTransform.Microsoft.gradient	(startColorstr='#00E100', endColorstr='#007300', GradientType=0);
+	background-image: -moz-linear-gradient(top, #00E100, #007300);
+	background-image: -ms-linear-gradient(top, #00E100, #007300);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#00E100), to(#007300));
+	background-image: -webkit-linear-gradient(top, #00E100, #007300);
+	background-image: -o-linear-gradient(top, #00E100, #007300);
+	background-image: linear-gradient(top, #00E100, #007300);
+	background-repeat: repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00E100', endColorstr='#007300', GradientType=0);
+	/* Darken IE7 buttons by default so they stand out more given they won't have borders */
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+	*border: 0;
+}
+
+.red:active {
+	color: #000000;
+	background: -webkit-gradient(linear, left top, left bottom, from(#00E100), to(#00A500));
+	background: -moz-linear-gradient(top,  #00E100,  #00A500);
+	background-image: -moz-linear-gradient(top, #00E100, #00A500);
+	background-image: -ms-linear-gradient(top, #00E100, #00A500);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#00E100), to(#00A500));
+	background-image: -webkit-linear-gradient(top, #00E100, #00A500);
+	background-image: -o-linear-gradient(top, #00E100, #00A500);
+	background-image: linear-gradient(top, #00E100, #00A500);
+	background-repeat: repeat-x;
+	filter:  progid:DXImageTransform.Microsoft.gradient	(startColorstr='#00E100', endColorstr='#00A500', GradientType=0);
+}
+
+
+.darkred {
+	color: #000000;
+	border: solid 1px #00B900;
+	background: #d81b21;
+	background: -webkit-gradient(linear, left top, left bottom, from(#00B900), to(#004100));
+	background: -moz-linear-gradient(top,  #00B900,  #004100);
+	background-image: -moz-linear-gradient(top, #00B900, #004100);
+	background-image: -ms-linear-gradient(top, #00B900, #004100);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#00B900), to(#004100));
+	background-image: -webkit-linear-gradient(top, #00B900, #004100);
+	background-image: -o-linear-gradient(top, #00B900, #004100);
+	background-image: linear-gradient(top, #00B900, #004100);
+	background-repeat: repeat-x;
+	filter:  progid:DXImageTransform.Microsoft.gradient	(startColorstr='#00B900', endColorstr='#004100', GradientType=0);
+}
+
+.darkred:hover {
+	background: #000000;
+	border: solid 1px #008700;
+	border-width:1px;
+	background: -webkit-gradient(linear, left top, left bottom, from(#008700), 	to(#000F00));
+	background: -moz-linear-gradient(top,  #008700,  #000F00);
+	filter:  progid:DXImageTransform.Microsoft.gradient	(startColorstr='#008700', endColorstr='#000F00', GradientType=0);
+	background-image: -moz-linear-gradient(top, #008700, #000F00);
+	background-image: -ms-linear-gradient(top, #008700, #000F00);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#008700), to(#000F00));
+	background-image: -webkit-linear-gradient(top, #008700, #000F00);
+	background-image: -o-linear-gradient(top, #008700, #000F00);
+	background-image: linear-gradient(top, #008700, #000F00);
+	background-repeat: repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#008700', endColorstr='#000F00', GradientType=0);
+	/* Darken IE7 buttons by default so they stand out more given they won't have borders */
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+	*border: 0;
+}
+
+.darkred:active {
+	color: #000000;
+	background: -webkit-gradient(linear, left top, left bottom, from(#008700), 	to(#004100));
+	background: -moz-linear-gradient(top,  #008700,  #004100);
+	background-image: -moz-linear-gradient(top, #008700, #004100);
+	background-image: -ms-linear-gradient(top, #008700, #004100);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#008700), to(#004100));
+	background-image: -webkit-linear-gradient(top, #008700, #004100);
+	background-image: -o-linear-gradient(top, #008700, #004100);
+	background-image: linear-gradient(top, #008700, #004100);
+	background-repeat: repeat-x;
+	filter:  progid:DXImageTransform.Microsoft.gradient	(startColorstr='#008700', endColorstr='#004100', GradientType=0);
+}
