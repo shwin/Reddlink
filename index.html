@@ -14,19 +14,18 @@
 	<meta property="fb:admins" content="1572451212" />
 
     <!-- STYLE SHEETS --> 
-	
-    <link href="assets/css/screen.css" rel="stylesheet" media="screen">
-    <link href="assets/css/bootstrap-responsive.min.css" rel="stylesheet">
-	<link rel="shortcut icon" href="assets/favicon.ico"> 
+	<link rel="stylesheet" href="handheld.css" media="handheld,
+only screen and (max-device-width:480px)"/>
+    <link href="core.css" rel="stylesheet" media="screen">
+    <link href="bootstrap-responsive.min.css" rel="stylesheet">
+	<link rel="shortcut icon" href="favicon.ico"> 
     
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 	<script type="text/javascript">
-	if (screen.width <= 699) {
-		document.location = "http://www.m.reddlink.com";
-		}
+
 	  var _gaq = _gaq || [];
 	  _gaq.push(['_setAccount', 'UA-34037120-1']);
 	  _gaq.push(['_trackPageview']);
@@ -45,8 +44,6 @@
 			}catch(err){}
 		}
 	</script>
-
-	
 </head>
 
 <body>
@@ -66,14 +63,14 @@
 			<![endif]-->
 			
 			<!--[if IE 7]>
-				<a style="color:#dddddd;">REDDLINK.COM IS NOT SUPPORTED IN IE7. PLEASE BROWSE IN CHROME, FIREFOX, SAFARI, OR IE 8/9/10.</a>
+				<a style="color:#dddddd;">REDDLINK.COM IS NOT SUPPORTED IN IE 6-7. PLEASE VISIT US IN CHROME, FIREFOX, SAFARI, OR IE 8-10.</a>
 			<![endif]-->
 			<ul class="nav">
-			<li style="margin-right:30px;"> <div class="fb-like" style="margin-top:10px;" data-href="http://www.reddlink.com" data-send="true" data-width="200" data-show-faces="false" data-colorscheme="dark" data-font="segoe ui"> </div> </li>
+			<li style="margin-right:30px;"> <div class="fb-like" style="margin-top:10px;" data-href="http://www.reddlink.com" data-send="true" data-layout="button_count" data-width="150" data-show-faces="false" data-colorscheme="dark" data-font="segoe ui"> </div> </li>
 			<li class="btn-group">
 				<button class="btn btn-customize darkred dropdown-toggle" data-toggle="dropdown">Skins <span class="caret"></span></button>
 					<ul class="dropdown-menu">
-						<li><a href="#">Coming Soon</li>
+						<li><a href="#">Coming Soon</a></li>
 					</ul>
 			</li>
 			</ul>
@@ -116,9 +113,36 @@
 	</tr>
 
 	<tr>
-		<td> <a href="http://www.campuslife.cornell.edu/campuslife/dining/dining-hours.cfm" class="ourbutton2 red" onClick="recordOutboundLink(this, 'Outbound Links', 'Dining Hours');return false;">Dining Hours</a> </td>
-		<td> <a href="http://www.library.cornell.edu/libraryhours" class="ourbutton2 red" onClick="recordOutboundLink(this, 'Outbound Links', 'Library Hours');return false;">Library Hours</a> </td>
-		<td> <a href="http://fitness.cornell.edu/Facilities/Hours/" class="ourbutton2 red" onClick="recordOutboundLink(this, 'Outbound Links', 'Gym Hours');return false;">Gym Hours</a> </td> 
+		<td> <div class="btn-group-colleges">
+				  <button class="btn red dropdown-toggle" data-toggle="dropdown">Dining  <span class="caret"></span></button>
+				  <ul class="dropdown-menu-colleges dropdown-menu-dining">
+				    <li><a href="http://www.campuslife.cornell.edu/campuslife/dining/" onClick="recordOutboundLink(this, 'Outbound Links', 'Dining Home');return false;">Home</a></li>
+					<li class="divider"></li>
+					<li><a href="http://www.campuslife.cornell.edu/campuslife/dining/dining-hours.cfm" onClick="recordOutboundLink(this, 'Outbound Links', 'Dining Hours');return false;">Hours</a></li>
+					<li><a href="http://www.campuslife.cornell.edu/campuslife/dining/dining-locations.cfm" onClick="recordOutboundLink(this, 'Outbound Links', 'Dining Locations');return false;">Locations</a></li>
+					<li><a href="http://www.campuslife.cornell.edu/campuslife/housing-dining-map.cfm" onClick="recordOutboundLink(this, 'Outbound Links', 'Dining Map');return false;">Map</a></li>
+					<li><a href="http://luthien3.campuslife.cornell.edu:7777/menus/faces/menu_start.jspx" onClick="recordOutboundLink(this, 'Outbound Links', 'Dining Menus');return false;">Menus</a></li>
+				  </ul>
+			</div> </td>
+		<td> <div class="btn-group-colleges">
+				  <button class="btn red dropdown-toggle" data-toggle="dropdown">Library  <span class="caret"></span></button>
+				  <ul class="dropdown-menu-colleges dropdown-menu-library">
+					<li><a href="http://www.library.cornell.edu/index" onClick="recordOutboundLink(this, 'Outbound Links', 'Library Home');return false;">Home</a></li>
+					<li class="divider"></li>
+					<li><a href="http://www.library.cornell.edu/libraryhours" onClick="recordOutboundLink(this, 'Outbound Links', 'Library Hours');return false;">Hours</a></li>
+					<li><a href="http://www.library.cornell.edu/libraryhours" onClick="recordOutboundLink(this, 'Outbound Links', 'Library Locations');return false;">Locations</a></li>
+				  </ul>
+			</div> </td> 
+		<td> <div class="btn-group-colleges">
+				  <button class="btn red dropdown-toggle" data-toggle="dropdown">Gym     <span class="caret"></span></button>
+				  <ul class="dropdown-menu-colleges dropdown-menu-dining">
+					<li><a href="http://fitness.cornell.edu/" onClick="recordOutboundLink(this, 'Outbound Links', 'Gym Home');return false;">Home</a></li>
+					<li class="divider"></li>
+					<li><a href="http://fitness.cornell.edu/Group-Fitness/Master-Schedule/" onClick="recordOutboundLink(this, 'Outbound Links', 'Gym Schedule');return false;">Class Schedule</a></li>
+					<li><a href="http://fitness.cornell.edu/Facilities/Hours/" onClick="recordOutboundLink(this, 'Outbound Links', 'Gym Hours');return false;">Hours</a></li>
+					<li><a href="http://fitness.cornell.edu/Facilities/CFC-Map/" onClick="recordOutboundLink(this, 'Outbound Links', 'Gym Locations');return false;">Locations</a></li>
+				  </ul>
+			</div> </td> 
 		<td> <a href="http://card.campuslife.cornell.edu/" class="ourbutton2 red" onClick="recordOutboundLink(this, 'Outbound Links', 'Cornell Card');return false;">Cornell Card</a> </td> 
 		<td> <a href="http://www.tcatbus.com/" class="ourbutton2 red" onClick="recordOutboundLink(this, 'Outbound Links', 'TCAT');return false;">TCAT</a> </td>
 	</tr>
@@ -132,7 +156,7 @@
 				  <ul class="dropdown-menu-colleges">
 					<li><a href="http://aap.cornell.edu/" onClick="recordOutboundLink(this, 'Outbound Links', 'AAP');return false;">AAP</a></li>
 					<li><a href="http://as.cornell.edu/" onClick="recordOutboundLink(this, 'Outbound Links', 'Arts and Sciences');return false;">Arts and Sciences</a></li>
-				 <li><a href="http://cals.cornell.edu/" onClick="recordOutboundLink(this, 'Outbound Links', 'CALS');return false;">CALS</a></li>
+					<li><a href="http://cals.cornell.edu/" onClick="recordOutboundLink(this, 'Outbound Links', 'CALS');return false;">CALS</a></li>
 					<li><a href="http://www.engineering.cornell.edu/" onClick="recordOutboundLink(this, 'Outbound Links', 'Engineering');return false;">Engineering</a></li>
 					<li><a href="http://www.hotelschool.cornell.edu/" onClick="recordOutboundLink(this, 'Outbound Links', 'Hotel School');return false;">Hotel School</a></li>
 					<li><a href="http://www.human.cornell.edu/" onClick="recordOutboundLink(this, 'Outbound Links', 'Human Econology');return false;">Human Ecology</a></li>
@@ -164,7 +188,7 @@
 
 <!--MOBILE-->
 
-<table class="table-mobile" align="center">
+<table class="table-mobile">
 
 	<tr>
 		<td> <a href="http://blackboard.cornell.edu/" class="ourbutton red">Blackboard</a> </td>
@@ -185,9 +209,9 @@
 	</tr>
 
 	<tr>
-		<td> <a href="http://www.campuslife.cornell.edu/campuslife/dining/dining-hours.cfm" class="ourbutton2 red">Dining Hours</a> </td>
-		<td> <a href="http://www.library.cornell.edu/libraryhours" class="ourbutton2 red">Library Hours</a> </td>
-		<td> <a href="http://fitness.cornell.edu/Facilities/Hours/" class="ourbutton2 red">Gym Hours</a> </td>
+		<td> <a href="http://www.campuslife.cornell.edu/campuslife/dining/dining-hours.cfm" class="ourbutton2 red">Dining</a> </td>
+		<td> <a href="http://www.library.cornell.edu/libraryhours" class="ourbutton2 red">Library</a> </td>
+		<td> <a href="http://fitness.cornell.edu/Facilities/Hours/" class="ourbutton2 red">Gym</a> </td>
 	</tr>
 
 	<tr>
@@ -235,7 +259,7 @@
     <!-- Placed at the end of the document so the pages load faster -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
     <!--<script src="jquery-1.7.2.min.js"></script>-->	
-    <script src="assets/js/bootstrap-dropdown.js"></script>
+    <script src="bootstrap-dropdown.js"></script>
 	<script type="text/javascript">
 		$(function() {
 		  $('.dropdown-toggle').dropdown();
